@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Formações De Texto</title>
+    <link rel="shortcut icon" href="favicon (3).ico" type="image/x-icon">
+</head>
+<body>
+    <h1>TESTANDO FORMAÇÕES DE TEXTOS</h1><hr>
+    <H2><strong>Negrito</strong> e <em>Itálico</em></H2>
+    <p><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.</strong> Suscipit natus odio corporis esse quis repellat eligendi tenetur similique <em>voluptate laborum cumque, molestiae optio?</em> Magni iste cum at, corrupti dicta tempora?</p>
+    <h2><mark>Marca Texto</mark></h2>
+    <p>Lorem ipsum dolor <mark>sit amet consectetur adipisicing elit. Vel quidem, consectetur totam ex sequi consequatur est quis dicta reiciendis</mark> voluptatum quaerat accusantium inventore exercitationem tempora perferendis iure ut laudantium laboriosam.</p>
+    <h2>Função <small>Small</small> (big morreu ;-;)</h2>
+    <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facere quibusdam nostrum modi repellendus amet</small> alias facilis saepe rem, cum tempora illo ipsam magnam quaerat corporis dolores quae possimus soluta?</p>
+    <h2><del>Texto Deletado</del></h2>
+    <p><del> ipsum dolor sit amet consectetur adipisicing elit. Ipsum, maxime vitae? </del>Placeat quas natus cum dolor molestias voluptates quidem atque vitae, delectus ab? Mollitia porro, suscipit aliquam quam id expedita.</p>
+    <h2><ins>Texto Inserido</ins></h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <ins>Nesciunt impedit, fuga veniam numquam tempora officiis laudantium blanditiis eveniet provident</ins> consequatur sapiente temporibus repellat! Voluptate sapiente odio sequi blanditiis obcaecati expedita?</p>
+    <h2>Textos <sup>Sobrescrito</sup> e <sub>Subscrito</sub></h2>
+    <p>Lorem ipsum dolor, <sub> amet consectetur adipisicing elit.</sub> Illo laudantium quos quam nisi et totam asperiores aperiam, <sup>modi quidem voluptates!</sup> Eum labore magnam nihil inventore praesentium suscipit quidem incidunt voluptas.</p>
+    <h2>Trechos De Códigos</h2>
+    <p><pre><code>// dando um "nome" para as portas 
+        int vermelho = 10;
+        int amarelo = 9;
+        int verde = 8;
+         
+        void setup() {
+          // indicando para o arduíno quais portas vamos usar
+          pinMode(vermelho, OUTPUT);
+          pinMode(amarelo, OUTPUT);
+          pinMode(verde, OUTPUT);
+        }
+         
+        void loop() {
+          // vamos começar do amarelo. Estranho não? 
+          // você vai entender no próximo exercício!
+          digitalWrite(vermelho, LOW);
+          digitalWrite(amarelo, HIGH);
+          digitalWrite(verde, LOW);
+         
+          // esperamos 2s com o sinal no amarelo
+          delay(2000);
+         
+          // apagamos o amarelo e ligamos o vermelho
+          digitalWrite(amarelo, LOW);
+          digitalWrite(vermelho, HIGH);
+          // Não precisa desse pois o verde já estava apagado
+          // digitalWrite(verde, LOW);
+         
+          // esperamos 5s com o sinal fechado
+          delay(5000);  
+         
+          // para finalizar, apagamos o vermelho e ligamos o verde
+          digitalWrite(verde, HIGH);
+          // não precisa desse pois o amarelo já estava apagado
+          // digitalWrite(amarelo, LOW);
+          digitalWrite(vermelho, LOW);
+         
+          // esperamos 5s com o sinal aberto
+          delay(5000);
+        }</code></pre></p>
+        <h2>"citações"</h2>
+        <p><Q>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</Q> Voluptates placeat ullam laborum aspernatur neque.<Q> Quae quidem, odio, doloribus iure nobis explicabo animi sapiente consectetur nisi, sit cum facere nulla veritatis!</Q><br> <blockquote cite="https://www.youtube.com/watch?v=X2WIBqiFs6Q"> Lorem ipsum dolor sit amet consectetur adipisicing elit. <q>Sit nobis ea itaque aliquam. Iusto, doloribus eligendi ex odit laborum recusandae amet hic et?</q> Voluptatem ipsa eum sint animi rerum veniam.</blockquote></p>
+    <h2>Abreviações</h2>
+    <p>Eu estou estudando muito a <abbr title="Cascading Style Sheet">CSS</abbr> e a <abbr title="Hyper Text Markup Language">HTML</abbr></p>
+    <h2><bdo dir="rtl">Texto Invertido</bdo>
+        <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, doloribus ipsum. Omnis laborum consectetur illo. Eligendi, <abbr title="MUITOFODAALEK">MFA</abbr> e a <abbr title="COISASBEMFODAS">CBF</abbr>ad minima impedit, laudantium numquam nemo magnam obcaecati, cumque voluptatibus consequuntur aperiam repudiandae a.</P>
+</body>
+</html>

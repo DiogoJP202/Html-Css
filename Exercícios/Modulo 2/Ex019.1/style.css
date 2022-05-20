@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body{
+    font: normal 1em arial, helvetica, sans-serif;
+}
+h1{
+    font-size: 2em;
+    color:darkgreen;
+
+}
+h2{
+    color:green;
+}

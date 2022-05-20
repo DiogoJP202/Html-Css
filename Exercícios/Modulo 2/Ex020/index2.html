@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: greenyellow;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color:green
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:active{
+            color: purple;
+        }
+        a::before{
+            content: '>>';
+            text-decoration: none;
+            color: purple;
+        }
+        a::after{
+            content: '<<';
+            text-decoration: none;
+            color: purple;
+        }
+        #Especial::after{
+            color: aqua;
+        }
+        #Especial::before{
+            color: aqua;
+        }
+        a > img{
+            display: none;
+        }
+        a:hover>img{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul type="Square">
+        <li><a href="https://www.youtube.com/channel/UCr1RhzKkDonIuE2mJcK2ewQ" target="_blank">Meu canal do youtube</a></li>
+        <li><a href="https://www.instagram.com/ton.nyx3/" target="_blank" id="Especial">Meu Github <img src="caracorrendo.gif" alt=""></a></li>
+        <li><a href="https://github.com/DiogoJP202" target="_blank">Meu Instagran</a></li>
+    </ul>
+</body>
+</html>

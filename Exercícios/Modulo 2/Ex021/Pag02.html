@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: blanchedalmond;
+        }
+        header{
+            background-color: rgb(185, 170, 148);
+            padding: 8px;
+        }
+        nav{
+            background-color: rgb(65, 59, 51);
+            padding: 8px;
+            margin: 5px;
+            text-align: center;
+            box-shadow: 1px 1px 3px black;
+        }
+        nav > a {
+            color: black;
+            margin-left: 5px;
+            margin-right: 5px;
+            text-decoration: none;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.555);
+        }
+        nav:hover>a{
+            text-decoration: underline;
+            background-color: black;
+            color: white;
+        }
+        main{
+            background-color: rgb(134, 124, 109);
+            padding: 8px;
+        }
+        h1{ color: rgb(95, 74, 47);}
+        h2{color: rgb(95, 74, 47);}
+        article#aves{
+            background-color: burlywood;
+            padding: 5px;
+            border: 3px black;
+            border-style: double;
+            margin: 5px;
+        }
+       article#repteis{
+            background-color: burlywood;
+            padding: 5px;
+            border: 3px black;
+            border-style: double;
+            margin: 5px;
+        }
+        footer{
+            background-color: rgba(0, 0, 0, 0.856);
+            color: white;
+            padding: 5px;
+            margin: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        footer > a {
+            color: rgb(101, 101, 119);
+            text-decoration: none;
+        }
+        footer:hover > a{
+        text-decoration: underline;
+        color: rgb(92, 8, 8);
+        }
+    </style>
+</head>
+<body>
+    <header>
+<h1>Titulo príncipal</h1>        
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nemo ratione modi a fugit officia placeat earum vitae impedit, ex quae blanditiis laudantium dolore omnis beatae iste repellendus debitis libero?</p>
+    </header>
+            <nav>
+                <a href="@">Link</a>
+                <a href="@">Link</a>
+                <a href="@">Link</a>
+                <a href="@">Link</a>
+                <a href="@">Link</a>
+            </nav>
+            <main>
+                <section>
+            <h2>Titulo Secundario</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque ea quisquam numquam? Et exercitationem rem ullam molestiae, tempore error possimus voluptatibus tempora earum suscipit aliquam neque, dolore recusandae placeat.</p>
+            <h2>Titulo secundario</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque amet possimus provident magni, ab ratione quod repellendus reiciendis facere tenetur molestias sunt voluptas aspernatur, modi est corrupti eum in mollitia?</p>
+            <article id="aves">
+            <h2>Artigo sobre aves</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil debitis, aspernatur cupiditate provident, distinctio fugiat minus officia est molestiae fugit, id vel cum totam? Laborum tenetur itaque sunt distinctio tempora!</p>
+                </article>
+        </section>
+        <article id="repteis">
+            <h2>Artigo sobre rapteis</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, possimus excepturi quaerat ut itaque assumenda aliquid reprehenderit corporis quasi dolores. Sed quas tempora non excepturi reprehenderit rerum pariatur quam earum!</p>
+        </article>
+    
+    </main>
+    <footer>
+        Sites:
+        <a href="@">Site legal 1</a>
+        <a href="@">site legal 2</a>
+        <br>
+        Criado Por Diogo Antonny
+    </footer>
+</body>
+</html>
