@@ -5,7 +5,7 @@
 <h2>EXERCÍCIOS></h2>
 <h3>MODULO 1:</h3>
 <ul>
-<li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex001/<li>index.html" target="_blank">Exercício 1</a></li>
+<li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex001/index.html" target="_blank">Exercício 1</a></li>
 <li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex002/index.html" target="_blank">Exercício 2</a></li>
 <li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex003/index.html" target="_blank">Exercício 3</a></li>
 <li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex004/index.html" target="_blank">Exercício 4</a></li>
