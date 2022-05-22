@@ -23,7 +23,7 @@ Não tem 5 kkkkk
 </ul>
 <h3>MODULO 2:</h3>
 <ul>
-<li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%202/Ex016/index.html" target="_blank"></a>Exercício 16</li>
+<li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%202/Ex016/index.html" target="_blank">Exercício 16</a></li>
 <li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%202/Ex017/index.html" target="_blank">Exercício 17</a></li>
 <li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%202/Ex018/index.html" target="_blank">Exercício 18</a></li>
 <li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%202/Ex019/index.html" target="_blank">Exercício 19</a></li>
