@@ -8,18 +8,18 @@
 <li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex001/index.html" target="_blank">Exercício 1</a></li>
 <li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex002/index.html" target="_blank">Exercício 2</a></li>
 <li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex003/index.html" target="_blank">Exercício 3</a></li>
-<li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex004/index.html" target="_blank">Exercício 4</a></li>
+<li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex004/index.HTML" target="_blank">Exercício 4</a></li>
 Não tem 5 kkkkk
 <li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex006/index.html" target="_blank">Exercício 6</a></li>
-<li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex007/index.html" target="_blank">Exercício 7</a></li>
-<li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex008e009/index.html" target="_blank">Exercício 8 e 9</a></li>
-<li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex010/index.html" target="_blank">Exercício 10</a></li>
+<li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex007/html4.html" target="_blank">Exercício 7</a></li>
+<li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex008e009/Index.html" target="_blank">Exercício 8 e 9</a></li>
+<li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex010/Index.html" target="_blank">Exercício 10</a></li>
 <li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex011/index.html" target="_blank">Exercício 11</a></li>
 <li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex012/index.html" target="_blank">Exercício 12</a></li>
 <li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex012.1/index.html" target="_blank">Exercício 12.1</a></li>
 <li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex013/index.html" target="_blank">Exercício 13</a></li>
-<li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex014/index.html" target="_blank">Exercício 14</a></li>
-<li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex015/index.html" target="_blank">Exercício 15</a></li>
+<li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex014/inde.html" target="_blank">Exercício 14</a></li>
+<li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%201/Ex0015/index.html" target="_blank">Exercício 15</a></li>
 </ul>
 <h3>MODULO 2:</h3>
 <ul>
@@ -27,7 +27,7 @@ Não tem 5 kkkkk
 <li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%202/Ex017/index.html" target="_blank">Exercício 17</a></li>
 <li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%202/Ex018/index.html" target="_blank">Exercício 18</a></li>
 <li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%202/Ex019/index.html" target="_blank">Exercício 19</a></li>
-<li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%202/Ex019.1/index.html" target="_blank">Exercício 19.1</a></li>
+<li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%202/Ex019.1/idenx.html" target="_blank">Exercício 19.1</a></li>
 <li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%202/Ex020/index.html" target="_blank">Exercício 20</a></li>
 <li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%202/Ex021/index.html" target="_blank">Exercício 21</a></li>
 <li><a href="https://github.com/DiogoJP202/Html-Css/blob/main/Exerc%C3%ADcios/Modulo%202/Ex022/index.html" target="_blank">Exercício 22</a></li>
