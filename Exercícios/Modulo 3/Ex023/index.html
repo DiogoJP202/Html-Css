@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando fundo de imagens</title>
+    <style>
+        div.quadrado2{
+            width: 300px;
+            height: 300px;
+            border: 5px solid black;
+            border-radius: 10px;
+            display: inline-block;
+            margin: auto 15px 30px 15px;
+        }
+        div.quadrado{
+            width: 300px;
+            height: 300px;
+            border: 5px solid black;
+            border-radius: 10px;
+            display: inline-block;
+            margin: 30px 15px auto 15px;
+        }
+        div#q1{
+            background-color: crimson;
+        }
+        div#q2{
+            background-image: linear-gradient( to bottom, yellow, green);
+        }
+        div#q3{
+            background-image: url('Imagens/pattern003.png');
+        }
+        div#q4{
+            background-image:radial-gradient( black, white, red)
+        }
+        div#q5{
+            background-color: gold;
+        }
+        div#q6{
+            background-image: linear-gradient( to bottom, #5F0CED, #A40CF7, #CD00E0, #F70CA6, #ED0C2E);
+        }
+        div#q7{
+            background-image: url('Imagens/pattern004.png');
+        }
+        div#q8{
+            background-image:radial-gradient( black, white, red, black, white, red, black, white, red)
+        }
+        body{
+            background-image: url('Imagens/wallpaper004.jpg');
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>
+    <div class="quadrado" id="q4">
+
+    </div>
+    <div class="quadrado2" id="q5">
+
+    </div>
+    <div class="quadrado2" id="q6">
+
+    </div>
+    <div class="quadrado2" id="q7">
+
+    </div>
+    <div class="quadrado2" id="q8">
+
+    </div>
+</body>
+</html>
