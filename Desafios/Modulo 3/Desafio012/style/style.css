@@ -43,6 +43,9 @@ section{
     line-height: 2em;
     padding-left: 30px;
 }
+section.normal>p{
+    margin-bottom: 15px;
+}
 section.normal{
     background-color: white;
     color: black;
@@ -50,12 +53,27 @@ section.normal{
 section.imagem{
     background-color: darkgray;
     color: white;
-    display: inline-block;
-    padding: 20px;
 }
 section.imagem>p{
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.500);
+    display: inline-block;
+    box-shadow: 3px 3px 5px black;
+}
+section#imagem_joaninha{
+    background-image: url('../imagens/background001.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+section#imagem_livro{
+    box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.445);
+    background-image: url('../imagens/background002.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 footer{
     background-color: black;
