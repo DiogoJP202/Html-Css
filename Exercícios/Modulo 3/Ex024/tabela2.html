@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        table{
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            max-width: 600px;
+            
+        }
+        caption{
+            text-decoration: underline;
+            color: black;
+            background-color: gray;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        th{
+            border: 1px solid black;
+            background-color: greenyellow;
+            padding: 10px;
+        }
+        td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+        }
+        td.num{
+            text-align: right;
+        }
+        tbody>tr:nth-child(odd){
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando Com Tabelas Grandes</h1>
+    <table>
+        <caption>
+            Estados brasileiros por população
+        </caption>
+        <thead>
+            <th>
+                Posição
+            </th>
+            <th>
+                Unidade Federativa
+            </th>
+            <th>
+                População
+            </th>
+            <th>
+                % da População 
+            </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    1
+                </td>
+                <td>
+                    São Paulo
+                </td>
+                <td class="num">
+                    46 649 132	
+                </td>
+                <td>
+                    21,9%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2
+                </td>
+                <td>
+                    Minas Gerais	
+                </td>
+                <td class="num">
+                    19 597 330	
+                </td>
+                <td>
+                    10,1%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    3
+                </td>
+                <td>
+                    Rio De Janeiro
+                </td>
+                <td class="num">
+                    17 463 349	
+                </td>
+                <td>
+                    8,2%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    4
+                </td>
+                <td>
+                    Bahia
+                </td>
+                <td class="num">
+                    17 463 349
+                </td>
+                <td>
+                    7,1%	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    5
+                </td>
+                <td>
+                    Paraná
+                </td>
+                <td class="num">
+                    14 985 284
+                </td>
+                <td>
+                    5,4%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    6
+                </td>
+                <td>
+                    Rio Grande Do Sul
+                </td>
+                <td class="num">
+                    11 466 630	
+                </td>
+                <td>
+                    5,4%	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    7
+                </td>
+                <td>
+                    Pernambuco
+                </td>
+                <td class="num">
+                    9 674 793	
+
+                </td>
+                <td>
+                    4,5%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    8
+                </td>
+                <td>
+                    Ceará
+
+                </td>
+                <td class="num">
+                    9 240 580	
+                </td>
+                <td>
+                    4,3%	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    9
+                </td>
+                <td>
+                    Pará
+                </td>
+                <td class="num">
+                    8 777 124	
+                </td>
+                <td>
+                    4,1%	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    10
+                </td>
+                <td>
+                    Santa Catarina
+                </td>
+                <td class="num">
+                    7 338 473	
+                </td>
+                <td>
+                    3,4%	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    11
+                </td>
+                <td>
+                    Goiás
+                </td>
+                <td class="num">
+                    7 206 589	
+                </td>
+                <td>
+                    3,4%	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    12
+                </td>
+                <td>
+                    Maranhão
+                </td>	
+                <td class="num">
+                    7 153 262	
+                </td>
+                <td>
+                    3,4%	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    13
+                </td>
+                <td>
+                    Amazonas
+                </td>
+                <td class="num">
+                    4 269 995	
+                </td>
+                <td>
+                    2,0%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    14
+                </td>
+                <td>
+                    Espírito Santo
+                </td>
+                <td class="num">
+                    4 108 508	
+                </td>
+                <td>
+                    1,9%	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    15
+                </td>
+                <td>
+                    Paraíba
+                </td>
+                <td class="num">
+                    4 059 905	
+                </td>
+                <td>
+                    1,9%	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    16
+                </td>
+                <td>
+                    Mato Grosso
+                </td>
+                <td class="num">
+                    3 567 234	
+                </td>
+                <td>
+                    1,7%	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    17
+                </td>
+                <td>
+                    Rio Grande Do Norte
+                </td>
+                <td class="num">
+                    3 560 903	
+                </td>
+                <td>
+                    1,7%	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    18
+                </td>
+                <td>
+                    Alagoas
+                </td>
+                <td class="num">
+                    3 365 351	
+                </td>
+                <td>
+                    1,6%	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    19
+                </td>
+                <td>
+                    Piauí
+                </td>
+                <td class="num">
+                    3 289 290	
+                </td>
+                <td>
+                    1,6%	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    20
+                </td>
+                <td>
+                    Distrito Federal
+                </td>
+                <td class="num">
+                    3 094 325	
+                </td>
+                <td>
+                    1,4%	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    21
+                </td>
+                <td>
+                    Mato GRosso Do Sul
+                </td>
+                <td class="num"> 
+                    2 839 188	
+                </td>
+                <td>
+                    1,3%	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    22
+                </td>
+                <td>
+                    Sergipe
+                </td>
+                <td class="num">
+                    2 338 474	
+                </td>
+                <td>
+                    1,1%	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    23
+                </td>
+                <td>
+                    Rondônia	
+                </td>
+                <td class="num">
+                    1 815 278	
+                </td>
+                <td>
+                    0,8%	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    24
+                </td>
+                <td>
+                    Tocantins
+                </td>
+                <td class="num">
+                    1 607 363	
+                </td>
+                <td>
+                    0,7%	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    25
+                </td>
+                <td>
+                    Acre
+                </td>
+                <td class="num">
+                    906 876	
+                </td>
+                <td>
+                    0,4%	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    26
+                </td>
+                <td>
+                    Amapá
+                </td>
+                <td class="num">
+                    877 613	
+                </td>
+                <td>
+                    0,4%	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    27
+                </td>
+                <td>
+                    Roraima
+                </td>
+                <td class="num">
+                    652 713	
+                </td>
+                <td>
+                    0,3%	
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>Total da População</th>
+            <td class="num" style="background-color: greenyellow;">
+                <strong>213.317.639</strong>
+            </td>
+        </tfoot>
+    </table>
+</body>
+</html>
