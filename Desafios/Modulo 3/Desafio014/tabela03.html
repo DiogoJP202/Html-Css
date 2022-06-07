@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table{
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+        }
+        th,td,tr{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        col#cnomes{
+            background-color: aqua;
+        }
+        col#cjogos{
+            background-color: greenyellow;
+        }
+        col#clivros{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Colgroup e Col</h1>
+     <table>
+         <caption>Tabela sobre jovens</caption>
+         <colgroup> 
+            <col id="cnomes">
+            <col id="csexo">
+            <col id="cjogos">
+            <col id="cfilmes">
+            <col id="clivros">
+        </colgroup>
+         <thead>
+             <th scope="col">Nomes</th>
+             <th scope="col">Sexo</th>
+             <th scope="col">Jogo Favorito</th>
+             <th scope="col">Filme Favorito</th>
+             <Th scope="col">Livro Favorito</Th>
+         </thead>
+         <tbody>
+             <tr>
+                 <td>João</td>
+                 <td>Masculino</td>
+                 <td>Half Life</td>
+                 <td>Alien</td>
+                 <td>IT</td>
+             </tr>
+             <tr>
+                <td>Fabiana</td>
+                <td>Feminino</td>
+                <td>Gang Beasts</td>
+                <td>A bela e a fera</td>
+                <td>Era uma vez</td>
+            </tr>
+            <tr>
+                <td>Felipe</td>
+                <td>Masculino</td>
+                <td>Doom</td>
+                <td>Ultimato</td>
+                <td>Dias Perfeitos</td>
+            </tr>
+            <tr>
+                <td>Diogo</td>
+                <td>Masculino</td>
+                <td>Skyrim</td>
+                <td>O fantastico senhor raposo</td>
+                <td>Dias Perfeitos</td>
+            </tr>
+     </table>
+</body>
+</html>
