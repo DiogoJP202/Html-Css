@@ -28,6 +28,9 @@
             font-size: 1.5em;
             font-weight: bold;
         }
+        td.matéria{
+            text-align: left;
+        }
     </style>
 </head>
 <body>
@@ -38,62 +41,62 @@
         </caption>
         <thead>
             <tr>
-                <th rowspan="2" class="cinza">Área</th>
-                <th rowspan="2" class="cinza">Disciplinas</th>
-                <th colspan="2" class="cinza">Notas</th>
-                <th rowspan="2" class="cinza">Médias</th>
+                <th rowspan="2" class="cinza" scope="col">Área</th>
+                <th rowspan="2" class="cinza" scope="col">Disciplinas</th>
+                <th colspan="2" class="cinza" scope="colgroup">Notas</th>
+                <th rowspan="2" class="cinza" scope="col">Médias</th>
             </tr>
             <tr>
-                <th class="cinza">Nota 1</th>
-                <th class="cinza">Nota 2</th>
+                <th class="cinza" scope="col">Nota 1</th>
+                <th class="cinza" scope="col">Nota 2</th>
             </tr>
         </thead>
         <tbody>
             
             <tr>
-                <th rowspan="4">Exatas</th>
-                <td>Matemática</td>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <td class="matéria">Matemática</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
             <tr>
-                <td>Física</td>
+                <td class="matéria">Física</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
             <tr>
-                <td>Química</td>
+                <td class="matéria">Química</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
             <tr>
-                <td>Biologia</td>
+                <td class="matéria">Biologia</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
             <tr>
-                <th colspan="4" class="cinza" style="text-align: left;">Média De Exatas</th>
+                <th colspan="4" class="cinza" style="text-align: left;" scope="row">Média De Exatas</th>
                 <td class="cinza">0.0</td>
             </tr>
             <tr>
-                <th rowspan="2">Humanas</th>
-                <td>História</td>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                <td class="matéria">História</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
             <tr>
-                <td>Geografia</td>
+                <td class="matéria"> Geografia</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
             <tr>
-                <th colspan="4" class="cinza" style="text-align: left;">Média De Humanas</th>
+                <th colspan="4" class="cinza" style="text-align: left;" scope="row">Média De Humanas</th>
                 <td class="cinza">0.0</td>
             </tr>
         </tbody>
