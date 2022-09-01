@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 body{
+    background-color: burlywood;
     background-image: url(/imagens/fundo-madeira.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -24,8 +25,11 @@ img.logo{
 }
 img#phoneimg{
     min-width: 100px;
-    
+
 }
 img.logo:hover{
-
+    transition-duration: 3s;
+    border: 3px solid purple;
+    transition-duration: 3s;
+    border: 3px solid white;
 }
