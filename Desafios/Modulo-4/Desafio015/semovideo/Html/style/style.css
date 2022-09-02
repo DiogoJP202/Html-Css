@@ -9,27 +9,35 @@ body{
     background-size: cover;
 }
 section#phone{
+    background-image: url(/imagens/frame-iphone.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    width: 311px;
+    height: 627px;
 }
 section#sociais{
     text-align: right;
 }
+iframe{
+    position: relative;
+    left: 7%;
+    top: 12%;
+    height: 477px;
+    width: 269px;
+}
 img.logo{
-    width: 80px;
+    width: 50px;
     border-radius: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     box-shadow: 2px 2px 5px black;
 }
-img#phoneimg{
-    min-width: 100px;
-
-}
 img.logo:hover{
-    transition-duration: 3s;
-    border: 3px solid purple;
-    transition-duration: 3s;
+    transition-duration: 1s;
     border: 3px solid white;
 }
