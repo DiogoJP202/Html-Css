@@ -43,13 +43,17 @@ section#Sociais{
     text-align: right;
 }
 img.logo{
-    margin-top: 10px;
+    margin: 10px;
     width: 50px;
     border-radius: 50%;
     margin-bottom: 20px;
     box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
 }
 img.logo:hover{
+    transform: translate(-3px,-3px);
     transition-duration: 1s;
     border: 3px solid white;
+    box-shadow: 5px 5px 10px black;
+
 }
