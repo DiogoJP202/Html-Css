@@ -9,7 +9,7 @@ html, body{
     width: 100vw;
 }
 body{
-    background-image: url(/Desafios/Modulo-4/Desafio015/comovideo/imagens/fundo-madeira.jpg);
+    background-image: url(/imagens/fundo-madeira.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -20,7 +20,7 @@ main {
     position: relative;
 }
 section#Phone{
-    background-image: url(/Desafios/Modulo-4/Desafio015/comovideo/imagens/frame-iphone.png);
+    background-image: url(/imagens/frame-iphone.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
