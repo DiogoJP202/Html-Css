@@ -3,4 +3,4 @@
 These are some of my projects:</p>
 <p>these projects are in the order of my progression over time.</p>
 <h2>Section 1</h2>
-<a href="https://diogojp202.github.io/Html-Css/Desafios/Modulo%201/Desafio%20001/Index.html" target="_blank">
+<a href="https://diogojp202.github.io/Html-Css/Desafios/Modulo%201/Desafio%20001/Index.html" target="_blank">Project 01</a>
