@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="Cadastro.php" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="Imasc" value="M"><label for="Imasc">Masculino</label><br>
+            <input type="radio" name="sexo" id="Ifemi" value="F"><label for="Ifemi">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Jogos favoritos</legend>
+            <input type="checkbox" name="RPG" id="IRGP"><label for="IRGP">RPG</label><br>
+            <input type="checkbox" name="FPS" id="IFPS"><label for="IFPS">FPS</label><br>
+            <input type="checkbox" name="ADVENTURE" id="IADVENTURE"><label for="IADVENTURE">Adventure</label><br>
+            <input type="checkbox" name="ACTION" id="IACTION"><label for="IACTION">Action</label><br>
+            <input type="checkbox" name="HORROR" id="IHORROR"><label for="IHORROR">Horror</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar"> 
+        </p>
+    </form>
+</body>
+</html>
