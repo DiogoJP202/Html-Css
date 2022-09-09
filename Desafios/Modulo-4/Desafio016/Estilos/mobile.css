@@ -1,0 +1,94 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(53, 42, 21);
+}
+main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 65vw;
+    border-radius: 10px;
+    height: 600px;
+}
+section#SecImg{
+    background: black url(../Imagens/Background.jpg) center center no-repeat fixed;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+h1{
+    margin: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+p{
+    font-weight: bold;
+    line-height: 25px;
+    padding: 10px;
+}
+div#Email{
+    background-color: red;
+    margin: 10px; 
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+div#Password{
+    background-color: red;
+    background-color: red;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+}
+span#PersonIcon, span#KeyIcon{
+   font-size: 40px;
+   margin-left: 10px;
+}
+input#Ipassword, input#Iemail{
+    width: 80%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+div#Entrar{
+    text-align: center;
+}
+input#Ientrar{
+width: 90%;
+margin-bottom: 10px;
+height: 40px;
+border-radius: 10px;
+box-shadow: 1px 1px 3px black;
+color: black;
+font-size: 16px;
+}
+input#Ientrar:hover, a#RestPassword:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+a#RestPassword{
+    color: black;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+    border: 1px solid black;
+    text-decoration: none;
+}
+span#MailIcon{
+    font-size: 15px;
+}
