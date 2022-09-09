@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Outras Media Queries*/
+/*Typical Device Breakpoints
+-----------(Width)----------
+Pequenas: 0 até 600px
+Celulares: 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: +1200px
+----------------------------
+*/
+@media print {
+    li{
+        display: none;
+    }
+    p{
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+@media screen and (min-width: 768px) {
+    main{
+        box-shadow: 2px 2px 4px black;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+}
