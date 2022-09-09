@@ -19,10 +19,32 @@ Grandes telas: +1200px
     }
 }
 @media screen and (min-width: 768px) {
+    
+    body{
+        background-image: url(../Imagens/berserk_outros.jpeg);
+    }
+    span#menuH{
+        display: none;
+    }
+    ul{
+        text-align: left;
+        display: block;
+    }
+    li{
+        list-style-type: none;
+        color: white;
+        padding: 5px;
+        background-color: red;
+        display: inline-block;
+        margin: 3px 5px 3px 5px;
+        box-shadow: 1px 1px 3px black;
+        cursor: pointer;
+    }
     main{
         box-shadow: 2px 2px 4px black;
         padding: 10px;
         border-radius: 10px;
         margin-top: 15px;
+        max-width: 900px;
     }
 }
