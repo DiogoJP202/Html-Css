@@ -83,7 +83,7 @@ font-size: 16px;
 input#Ientrar:hover, a#RestPassword:hover{
     transition: 0.5s;
     cursor: pointer;
-    background-color: var(--cor3);
+    background-color: var(--cor1);
     color: white;
 }
 a#RestPassword{
