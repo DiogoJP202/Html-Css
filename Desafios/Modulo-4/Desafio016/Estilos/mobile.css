@@ -1,12 +1,18 @@
 @charset "UTF-8";
+/* Media Query mobile*/
 *{
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+:root{
+    --cor1: #300d28;
+    --cor2: #8ca38b;
+    --cor3: #70615c;
+}
 body{
-    background-color: rgb(53, 42, 21);
+    background-color: var(--cor1);
 }
 main{
     position: absolute;
@@ -15,13 +21,15 @@ main{
     transform: translate(-50%, -50%);
     background-color: white;
     width: 65vw;
-    border-radius: 10px;
-    height: 600px;
+    border-radius: 20px;
+    height: 610px;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px black;
 }
 section#SecImg{
     background: black url(../Imagens/Background.jpg) center center no-repeat fixed;
     height: 200px;
-    border-radius: 10px 10px 0px 0px;
+    width: 100%;
 }
 h1{
     margin: 10px;
@@ -29,19 +37,19 @@ h1{
     font-weight: bolder;
 }
 p{
+    text-align: left;
     font-weight: bold;
     line-height: 25px;
     padding: 10px;
 }
 div#Email{
-    background-color: red;
+    background-color: var(--cor2);
     margin: 10px; 
     padding: 5px;
     border-radius: 10px 10px 0px 0px;
 }
 div#Password{
-    background-color: red;
-    background-color: red;
+    background-color: var(--cor2);
     margin: 10px;
     padding: 5px;
     border-radius: 0px 0px 10px 10px;
@@ -49,6 +57,9 @@ div#Password{
 span#PersonIcon, span#KeyIcon{
    font-size: 40px;
    margin-left: 10px;
+}
+input.fundo{
+    background-color: var(--cor3);
 }
 input#Ipassword, input#Iemail{
     width: 80%;
@@ -72,7 +83,7 @@ font-size: 16px;
 input#Ientrar:hover, a#RestPassword:hover{
     transition: 0.5s;
     cursor: pointer;
-    background-color: rgb(255, 0, 0);
+    background-color: var(--cor3);
     color: white;
 }
 a#RestPassword{
@@ -88,6 +99,9 @@ a#RestPassword{
     box-shadow: 1px 1px 3px black;
     border: 1px solid black;
     text-decoration: none;
+} 
+a > p{
+    text-align: center;
 }
 span#MailIcon{
     font-size: 15px;
