@@ -22,7 +22,7 @@ main{
     background-color: white;
     width: 65vw;
     border-radius: 20px;
-    height: 610px;
+    height: 650px;
     overflow: hidden;
     box-shadow: 1px 1px 5px black;
 
@@ -31,7 +31,7 @@ main{
 }
 section#SecImg{
     background: black url(../Imagens/Background.jpg) center center no-repeat fixed;
-    height: 200px;
+    height: 280px;
     width: 100%;
 }
 h1{
