@@ -25,6 +25,9 @@ main{
     height: 610px;
     overflow: hidden;
     box-shadow: 1px 1px 5px black;
+
+    transition: width 1s, height 1s;
+    transition-timing-function: ease;
 }
 section#SecImg{
     background: black url(../Imagens/Background.jpg) center center no-repeat fixed;
