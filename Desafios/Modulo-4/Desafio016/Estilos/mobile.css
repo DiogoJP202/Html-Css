@@ -65,7 +65,7 @@ input.fundo{
     background-color: var(--cor3);
 }
 input#Ipassword, input#Iemail{
-    width: 83%;
+    width: 80%;
     height: 40px;
     border: 1px solid black;
     border-radius: 10px;
