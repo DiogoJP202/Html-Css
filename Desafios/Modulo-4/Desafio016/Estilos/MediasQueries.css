@@ -17,6 +17,11 @@ Grandes telas: +1200px
         content: "Parte de um site de Diogo Antonny";
     }
 }
+@media screen and (max-width: 700px ) {
+    input#Ipassword, input#Iemail{
+        width: 75%;
+    }
+}
 @media screen and (min-width: 768px ) and (max-width: 992px){
    body{
     background-color: var(--cor1);
@@ -39,6 +44,13 @@ section#SecLog{
 p{
     font-weight: 100;
 }
+span#PersonIcon, span#KeyIcon{
+    font-size: 40px;
+    margin-left: 10px;
+ }
+ input#Ipassword, input#Iemail{
+    width: 80%;
+ }
 }
 @media screen and (min-width: 992px){
     body{
@@ -64,5 +76,12 @@ p{
  }
  p{
      font-weight: 100;
+ }
+ span#PersonIcon, span#KeyIcon{
+    font-size: 40px;
+    margin-left: 10px;
+ }
+ input#Ipassword, input#Iemail{
+    width: 80%;
  }
  }

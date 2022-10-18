@@ -59,7 +59,6 @@ div#Password{
 }
 span#PersonIcon, span#KeyIcon{
    font-size: 40px;
-   margin-left: 10px;
 }
 input.fundo{
     background-color: var(--cor3);
