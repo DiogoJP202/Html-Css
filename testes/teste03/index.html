@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        html, body{
+            font-family: 'Courier New', Courier, monospace;
+        } 
+
+        table{
+            width: 400px;
+
+            border-collapse: collapse;
+            margin: 10px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .cname{
+            background-color: aquamarine;
+        }
+    </style>
+    <title>Table</title>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cname">
+            <col class="csex">
+            <col class="cage">
+            <col class="cprofession">
+        </colgroup>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Sex</th>
+            <th scope="col">Age</th>
+            <th scope="col">Profession</th>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>Male</td>
+            <td>17</td>
+            <td>Student</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>Famele</td>
+            <td>51</td>
+            <td>Teacher</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>Male</td>
+            <td>21</td>
+            <td>Carpenter</td>
+        </tr>
+</table>
+<iframe srcdoc="<h1>Hello world!</h1>"> </iframe>
+</body>
+</html>

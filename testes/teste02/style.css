@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+div#outside{
+	height: 96vh;
+	position: relative;
+
+	background-color: #BD7DF5;
+}
+
+div#inside{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	
+	background-color: #F5FF40;
+}
