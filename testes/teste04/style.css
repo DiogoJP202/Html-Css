@@ -21,7 +21,12 @@ div{
 }
 
 div:hover{
-    transition: box-shadow .5s, border-radius 5s;
+    transition: box-shadow .5s, border-radius 2s, width 1s, height 1s;    
+    transition-timing-function: ease;
+
+    height: 180px;
+    width: 180px;
+
     box-shadow: 5px 5px 5px #000;
     border-radius: 10px;
 }
