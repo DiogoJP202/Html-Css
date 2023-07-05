@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    background: #DEDDC6 url(../../img/fundo.png) top left repeat;
+}
+
+header, main, footer{
+    max-width: 1000px;
+}
+
+.photo{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+
+    background-color: #D4D3BE;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 10px;
+
+    color: #999e5e;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+nav > a {
+    margin: 10px;
+
+    font-weight: bold;
+    text-decoration: none;
+    color: #999e5e;
+
+    transition: .5s;
+}
+
+nav > a:hover{
+    color: #000;
+    
+    transform: scale(1.1);
+}
+
+main{
+    width: 100%;
+
+    padding: 10px;
+
+    background: #fdfbed;
+}
+
+main > h1 {
+    color: #999e5e;
+
+    padding: 10px;
+}
+
+main > p {
+    padding: 3px 0;
+
+    font-size: 1.08em;
+    font-weight: bold;
+    text-indent: 10px;
+}
+
+footer{
+    padding: 10px;
+
+    text-align: center;
+}
