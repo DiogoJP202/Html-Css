@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1024px){
+    main{
+        width: 75%;
+    }
+
+    aside{
+        width: 25%;
+    }
+
+    .main{
+        display: flex;
+
+        max-width: 1200px;
+
+        margin: auto;
+    }
+}

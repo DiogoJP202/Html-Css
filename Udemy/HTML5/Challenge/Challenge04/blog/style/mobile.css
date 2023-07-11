@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+
+    background: #FCF8FC;
+}
+
+header{
+    background: #FFC300;
+}
+
+#title01, #title02{ display: inline-block; }
+
+#title01{ color: #000; }
+
+#title02{ color: #fff; }
+
+h1{
+    padding: 10px;
+
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+
+    padding: 10px;
+
+    text-align: center;
+}
+
+nav > a{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: none;
+
+    transition: .5s;
+}
+
+nav > a:hover{ 
+    padding: 5px;
+
+    color: #FFC300;
+    
+    background: #fff;
+}
+
+main > section{
+    margin: 10px;
+ 
+    background-color: #fff;
+}
+
+main > section > h2{
+    padding: 10px 0 3px 10px;
+
+    color: #FFC300;
+}
+
+.date{ 
+    padding: 0 0 3px 10px;
+
+    font-weight: bold; 
+}
+
+.SecImg{
+    display: block;
+    width: 95%;
+
+    margin: 15px auto;
+}
+
+.SecText{
+    padding: 10px;
+
+    font-weight: bold;
+}
+
+.SecLink{
+    padding: 0 0 10px 10px;
+
+    color: #FFC300;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+
+    transition: .5s;
+}
+
+.SecLink:hover{
+    color: #000;
+    text-shadow: -1px 1px 0 #FFC300, 1px 1px 0 #FFC300, 1px -1px 0 #FFC300, -1px -1px 0 #FFC300;
+}
+
+aside > section{
+    margin: 10px;
+    padding: 10px;
+
+    background: #fff;
+}
+
+aside > section > h2 {
+    padding: 5px;
+    text-indent: 30px;
+
+    background-color: #86868680;
+}
+
+ul{
+    list-style: none;
+    line-height: 1.3em;
+}
+
+.listLinks{
+    padding: 5px;
+
+    text-decoration: none;
+    color: #FFC300;
+    font-weight: bold;
+}
+
+.listLinks:hover{
+    color: #000;
+    text-shadow: -1px 1px 0 #FFC300, 1px 1px 0 #FFC300, 1px -1px 0 #FFC300, -1px -1px 0 #FFC300;
+}
+
+footer {
+    padding: 10px;
+
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+
+    background: #7a7a7a9c;    
+}
