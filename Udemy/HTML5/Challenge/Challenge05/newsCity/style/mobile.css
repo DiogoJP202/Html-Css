@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background: #294C71 url(../../img/detalhe-topo.png) no-repeat center top;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    margin: 25px 25px;
+}
+
+#humButton{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+    width: 70px;
+    height: 70px;
+
+    margin: 20px;
+}
+
+.line{
+    width: 90%;
+    height: 20%;
+
+    background-color: rgb(140, 0, 0);
+    border-radius: 10px;
+}
+
+nav{
+    display: none;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    height: 2.5em;
+}
+
+nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: none;
+
+    background-color: rgb(140, 0, 0);
+
+    transition: .5s;
+}
+
+nav a:hover{
+    background-color: rgb(175, 0, 0);
+    color: #000;
+}
+
+#buildings{
+    height: 60px;
+
+    background: #fff url(../../img/fundo.png) repeat-x bottom left;
+}
+
+#principal{
+    margin-top: 20px;
+
+    background: #e9e9e9 url(../../img/fundo-caixa.png) repeat top left;
+}
+
+aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+section{
+    margin-top: 10px;
+
+    background: #fff;
+}
+
+aside > section{
+    width: 45%;
+}
+
+h2{
+    padding: 10px;
+
+    color: #fff;
+
+    background: #294C71;
+}
+
+aside > section ul{
+    list-style-type: none;
+}
+
+aside > section li{
+    margin: 10px;
+}
+
+aside > section li:hover{
+    margin-left: 10%;
+
+    list-style-type: disc;
+}
+
+aside > section a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3em;
+}
+
+aside > section a:hover{
+    color: rgb(200, 0, 0);
+    font-size: 1.35em;
+}
+
+aside > section label{
+    display: block;
+    padding: 10px 0 10px 10px;
+
+    font-size: 1.5em;
+}
+
+aside > section input[type=email]{
+    display: block;
+
+    margin: 0 0 0 10px;
+    padding: 10px;
+}
+
+aside > section button{
+    display: block;
+
+    margin: 20px auto;
+    padding: 10px 20px;
+
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background: rgb(200, 0, 0);
+}
+
+aside > section button:hover{
+    background: #4983c2;
+}
+
+#articles1, #articles2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#articles1 article{
+    min-width: 300px;
+
+    margin: 10px;
+
+    background: #fff;
+}
+
+#articles1 article h3{
+    display: inline;
+    padding: 0 5px 5px 5px;
+
+    background: rgb(150, 0, 0);
+
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+#articles1 article img{
+    width: 100%;
+
+    padding: 10px;
+}
+
+#articles1 article p{
+    padding: 10px;
+
+    font-size: 1.2em;
+}
+
+#articles1 article a{
+    padding: 10px;
+
+    font-size: 1.2em;
+    color: rgb(200, 0, 0);
+}
+
+#articles1 article a:hover{
+    font-size: 1.3em;
+    color: #4983c2;
+}
+
+#articles2 > section{
+    margin: 10px;
+}
+
+#articles2 > section figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#articles2 > section img{
+    width: 200px;
+
+    padding: 10px;
+}
+
+#articles2 > section > figure h4{
+    color: #4983c2;
+    font-size: 1.1em;
+}
+
+footer{
+    padding: 10px;
+
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+
+    background: rgb(140, 0, 0);
+}
