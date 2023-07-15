@@ -9,17 +9,28 @@
     <link rel="stylesheet" href="style/mobile.css" media="all">
 </head>
 <body>
+    <div id="test">
+        <nav id="humNav">
+            <a href="#" class="navLink">Home</a>
+            <a href="#" class="navLink">Brasil</a>
+            <a href="#" class="navLink">International</a>
+            <a href="#" class="navLink">Economy</a>
+            <a href="#" class="navLink">Health</a>
+            <a href="#" class="navLink">Science</a>
+            <a href="#" class="navLink">Photos</a>
+        </nav>
+    </div>
     <header>
         <div id="menu">
             <img src="../img/logo.png" alt="Logo News City" id="logo">
             
-            <div id="humButton">
+            <div class="humButton">
                 <div class="line"></div>
                 <div class="line"></div>
                 <div class="line"></div>
             </div>
         </div>
-        <nav>
+        <nav id="navBigger">
             <a href="#" class="navLink">Home</a>
             <a href="#" class="navLink">Brasil</a>
             <a href="#" class="navLink">International</a>
@@ -49,7 +60,7 @@
             <section>
                 <h2>News</h2>
                 <label for="IEmail">Email: </label>
-                <input type="email" name="Email" id="IEmail" size="20" placeholder="E-mail here!">
+                <input type="email" name="Email" id="IEmail" size="15" placeholder="E-mail here!">
                 <button>Register</button>
             </section>
         </aside>
@@ -151,5 +162,6 @@
     <footer>
         <p>&copy; Copyright 2000-2023 News City</p>
     </footer>
+    <script src="scripts/index.js"></script>
 </body>
 </html>
