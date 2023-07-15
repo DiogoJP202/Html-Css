@@ -7,21 +7,17 @@
     margin: 0;
 }
 
-body{
-    overflow-x: hidden;
-}
-
 header{
+    display: flex;
+    justify-content: space-between;
+
     background: #294C71 url(../../img/detalhe-topo.png) no-repeat center top;
 }
 
-#menu{
-    display: flex;
-    justify-content: space-between;
-}
-
 #logo{
-    margin: 25px 25px;
+    width: 100px;
+
+    margin: 25px;
 }
 
 .humButton{
@@ -33,9 +29,7 @@ header{
     width: 70px;
     height: 70px;
 
-    margin: 20px;
-
-    z-index: 2;
+    margin: 25px;
 
     cursor: pointer;
 }
@@ -52,7 +46,7 @@ header{
 
 #test{
     display: none;
-    width: 0;
+
     height: 100vh;
 
     background: #4983c2;
@@ -60,20 +54,22 @@ header{
     position: fixed;
 }
 
-#navBigger{
-    display: none;
+
+nav{
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
-    
+}
+
+#navBigger{
+    display: none;
+
     height: 2.5em;
 }
 
 #humNav{
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
+
     flex-direction: column;
 
     height: 100%;
@@ -194,7 +190,12 @@ aside > section button:hover{
     background: #4983c2;
 }
 
-#articles1, #articles2{
+
+aside > section > input[type = 'email']{
+    width: 75%;
+}
+
+#articles2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

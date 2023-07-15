@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 764px){
+    header{
+        flex-direction: column;
+
+        background-position: top right;
+    }
+
+    .humButton, #humNav, #test{
+        display: none !important;
+    }
+
+    #navBigger{
+        display: flex;
+    }
+
+    #principal{
+        display: flex;
+        flex-direction: row;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        width: 30%;
+    }
+
+    aside > section{
+        width: 100%;
+    }
+
+    main{
+        width: 70%;
+    }
+
+    #articles1{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #articles1 article{
+        width: 50%;
+    }
+}

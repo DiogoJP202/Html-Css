@@ -1,9 +1,9 @@
 let menu = 0;
 
 document.addEventListener("click", e =>{
-    element = e.target;
+    el = e.target;
 
-    if(element.classList.contains('humButton')){
+    if(el.classList.contains('humButton') || el.classList.contains('line')){
         menuChange();
     }
 })
@@ -11,8 +11,8 @@ document.addEventListener("click", e =>{
 function menuChange(){
     const lines = document.querySelectorAll('.line');
     const menuBar = document.querySelector('#test');
-    if(menu % 2 === 0){
-        console.log(2)
+
+    if(menu % 2 == 0){
         lines[0].style.position = "absolute";
         lines[0].style.transform = "rotate(45deg)";
     
@@ -22,11 +22,10 @@ function menuChange(){
         lines[2].style.transform = "rotate(-45deg)";
 
         menuBar.style.display = "block";
-        menuBar.style.width = "75vw"
+        menuBar.style.width = "60vw"
 
         menu ++
     } else {
-        console.log(3)
         lines[0].style.position = "relative";
         lines[0].style.transform = "rotate(0deg)";
     
