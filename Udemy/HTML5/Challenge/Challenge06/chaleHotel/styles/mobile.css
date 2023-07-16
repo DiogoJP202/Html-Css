@@ -5,14 +5,18 @@
     margin: 0;
 }
 
+body{
+    overflow-x: hidden;    
+}
+
 header{
-    background: #F0ECC5;
+    background: #F0ECC5 url(../../imgs/topo-imagem-principal.png);
 }
 
 #logo{
     height: 150px;
 
-    background: #F0ECC5 url(../../imgs/topo-imagem-principal.png);
+    background: transparent;
 }
 
 #logo > img{
@@ -22,6 +26,8 @@ header{
 #menu{
     display: flex;
     flex-direction: column;
+
+    background-color: #EFE9CB;
 }
 
 #divReservation{
@@ -139,8 +145,13 @@ article{
     justify-content: space-between;
 }
 
+.at2Div:hover{
+    background-color: #EFE9CB;
+}
+
 #arti2 h3{
     color: #746d39;
+    background: url(../../imgs/ornamento.png) top right no-repeat;
 }
 
 #arti2 p{
@@ -149,7 +160,10 @@ article{
 }
 
 footer{
-    padding: 10px;
+    max-width: 1300px;
+
+    margin: auto;
+    padding: 10px 0;
 
     text-align: center;
     color: #DBD8B6;

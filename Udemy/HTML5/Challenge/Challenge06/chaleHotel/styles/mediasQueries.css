@@ -1,1 +1,48 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    header{
+        display: flex;
+        justify-content: space-between;
+
+        height: 250px;
+        max-width: 1300px;
+
+        margin: auto;
+    }
+
+    #logo{
+        width: 50%;
+    }
+
+    #menu{
+        width: 40%;
+        padding-left: 90px;
+
+        background: url(../../imgs/topo-imagem-lateral.png);
+        background-color: transparent;
+    }
+
+    #divReservation{
+        margin: 0;
+    }
+
+    #divReservation hr{
+        margin: 5px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+
+        max-width: 1300px;
+
+        margin: auto;
+    }
+    
+    #arti1{
+        width: 150%;
+
+        font-size: 1.2em;
+    }
+}
