@@ -202,8 +202,6 @@ aside > section > input[type = 'email']{
 }
 
 #articles1 article{
-    min-width: 300px;
-
     margin: 10px;
 
     background: #fff;

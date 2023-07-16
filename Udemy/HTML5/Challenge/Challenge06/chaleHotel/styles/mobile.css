@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background: #F0ECC5;
+}
+
+#logo{
+    height: 150px;
+
+    background: #F0ECC5 url(../../imgs/topo-imagem-principal.png);
+}
+
+#logo > img{
+    margin: 15px 0px 0px 15px;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+}
+
+#divReservation{
+    margin: 20px;
+
+    font-size: 1.1em;
+    color: #9A914D;
+    text-align: center;
+}
+
+#divReservation hr{
+    margin: 10px;
+
+    border: 1px solid #9A914D;
+}
+
+#divReservation input[type = button]{
+    margin-left: 15px;
+    padding: 5px;
+
+    color: #F0ECC5;
+    font-size: .9em;
+    font-weight: bold;
+
+    background: #9A914D;
+    border: 1px solid #9A914D;
+
+    transition: .5s;
+}
+
+#divReservation input[type = button]:hover{
+    transform: scale(1.1);
+
+    color: #9A914D;
+    background: #F0ECC5;
+
+
+    cursor: pointer;
+}
+
+#navLinks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
+#navLinks > ul{
+    list-style-type: none;
+}
+
+#navLinks li{
+    margin: 10px;
+
+    text-align: left;
+}
+
+#navLinks a{
+    font: 1.2em bolder;
+    color: #9A914D;
+    text-decoration: none;
+
+    transition: .5s;
+}
+
+#navLinks a:hover{
+    margin-left: 10px;
+    padding: 5px;
+
+    color: #000000;
+
+    background: #9A914D;
+    border-radius: 15px;
+}
+
+article{
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#arti1{
+    background: #EFE9CB url(../../imgs/bg-area-principal.png) repeat-x;
+}
+
+#arti1 h2{
+    margin-bottom: 15px;
+
+    color: #9A914D;
+}
+
+#arti1 p {
+    text-indent: 10px;
+    font-size: 1.1em;
+}
+
+#arti2{
+    background: #DBD8B6 url(../../imgs/bg-area-lateral.png) repeat-x;
+}
+
+#arti2 img{
+    width: 200px;
+
+    margin: 10px;
+}
+
+#arti2 hr{
+    margin-bottom: 10px;
+
+    border: 1px solid #f0ecc6;
+}
+
+.at2Div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#arti2 h3{
+    color: #746d39;
+}
+
+#arti2 p{
+    font-size: 1.1em;
+    text-indent: 10px;
+}
+
+footer{
+    padding: 10px;
+
+    text-align: center;
+    color: #DBD8B6;
+    font-size: 1.2em;
+
+    background: #9A914D;
+}
