@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 85px;
+
+    background: #2D281F;
+}
+
+#header1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+
+    padding-top: 25px;
+}
+
+.nav01{
+    display: none;
+
+    width: 100%;
+}
+
+.humButton{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+    width: 70px;
+    height: 70px;
+
+    margin: 25px;
+
+    cursor: pointer;
+}
+
+.line{
+    width: 90px;
+    height: 15px;
+
+    background-color: #A26B14;
+    border-radius: 10px;
+
+    transition: .5s;
+}
+
+#headingNav{
+    list-style-type: none;
+
+    text-align: center;
+}
+
+#headingNav > li{
+    display: block;
+
+    width: 100%;
+
+    padding: 6px;
+
+    font-size: 1.1em;
+}
+
+a{
+    color: #A26B14;
+    text-decoration: none;
+}
+
+a:hover{
+    display: block;
+
+    background: #fff;
+}
+
+#header2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: relative;
+    top: -70px; 
+
+}
+
+
+#header2 #imgMuseu{
+    width: 61%;
+}
+
+#header2 #imgDep{
+    width: 30%;
+}
