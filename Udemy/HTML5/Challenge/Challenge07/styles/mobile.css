@@ -7,8 +7,13 @@
     padding: 0;
 }
 
+body{
+    background: #F5F2EF;
+}
+
 header{
-    padding: 85px;
+    padding-top: 20px;
+    padding-bottom: 70px;
 
     background: #2D281F;
 }
@@ -20,8 +25,6 @@ header{
     flex-direction: column;
 
     width: 100%;
-
-    padding-top: 25px;
 }
 
 .nav01{
@@ -57,7 +60,7 @@ header{
 #headingNav{
     list-style-type: none;
 
-    text-align: center;
+    text-align: left;
 }
 
 #headingNav > li{
@@ -70,15 +73,19 @@ header{
     font-size: 1.1em;
 }
 
-a{
-    color: #A26B14;
-    text-decoration: none;
+#headingNav a{
+    display: block;
+    text-align: center;
 }
 
-a:hover{
-    display: block;
-
+#headingNav a:hover{
     background: #fff;
+}
+
+a{
+    color: #b46f00;
+    font-size: 1.06em; font-weight: bold;
+    text-decoration: none;
 }
 
 #header2{
@@ -91,11 +98,124 @@ a:hover{
 
 }
 
-
 #header2 #imgMuseu{
-    width: 61%;
+    width: 60%;
 }
 
 #header2 #imgDep{
     width: 30%;
+}
+
+main{
+    display: flex !important;
+    align-items: top;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+section{
+    padding: 10px;
+}
+
+section  h2{    
+    padding-bottom: 10px;
+
+    color: #009400;
+    text-align: left;
+}
+
+section > .mapa{
+    width: 100px;
+}
+
+section > ul {
+    list-style: none;
+}
+
+section li {
+    padding-bottom: 5px;
+}
+
+#history{
+    width: 300px;
+}
+
+#history > p{
+    padding-bottom: 10px;
+}
+
+aside h2{
+    color:#A26B14;
+}
+
+aside > #visit {
+    background: #CDC7B5;
+}
+
+aside > #visit > div{
+    display: flex;
+    justify-content: center;
+}
+
+aside > #visit > div > label{
+    padding: 0 10px;
+}
+
+aside  #button{
+    display: block;
+
+    width: 90%;
+
+    padding: 10px;
+    margin: 10px auto;
+
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+
+    background: #9F9075;
+}
+
+aside #galery{
+    background: #EDE5DF;
+}
+
+#galery > div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+}
+
+#galery > div > div{
+    padding: 40px; 
+
+    background: url(../imgs/fundo-foto.png) center center no-repeat;
+}
+
+hr{
+    width: 90%;
+
+    margin: 10px auto;
+
+    box-shadow: rgb(205 203 200) 0px 1px 5px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    padding: 20px;
+
+    list-style: none;
+}
+
+footer p{
+    padding: 10px;
+
+    font-size: 1.1em;
+    text-align: center;
 }

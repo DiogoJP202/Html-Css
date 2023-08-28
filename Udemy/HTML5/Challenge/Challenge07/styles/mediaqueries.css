@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@media screen and (min-width: 768px){
+    #header1{
+        flex-direction: row;
+
+        padding: 10px;
+    }
+
+    .humButton{
+        display: none;
+    }
+
+    .nav01{
+        display: block !important;
+    }
+
+    #headingNav{
+        display: flex;
+        flex-direction: row;
+
+        font-size: 0.7em;
+    }
+
+    #principal{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: row;
+    }
+}

@@ -10,9 +10,9 @@
     <![endif]-->
 
     <link rel="stylesheet" href="styles/mobile.css" media="all" type="text/css">
+    <link rel="stylesheet" href="styles/mediaqueries.css" type="text/css">
 
     <link rel="stylesheet" href="styles/normalize.css" type="text/css">
-
 
     <link rel="shortcut icon" href="imgs/icons/museum.ico" type="image/x-icon">
 </head>
@@ -58,7 +58,7 @@
                 <h2>Mapa: Encontre o Museu</h2>
 
                 <div class="mapa">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311665319!2d-43.228717585034445!3d-22.90575998501238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1689719317379!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311665319!2d-43.228717585034445!3d-22.90575998501238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1689719317379!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
 
@@ -71,55 +71,57 @@
                     <li> <a href="#">Plantas do Brasil Central;</a>
                     <li> <a href="#">Teresa Cristina: A Imperatriz Arqueóloga;</a>
                     <li> <a href="#">Arte Com Dinoussauros - Paleoarte;</a>
-                    <a href="#">Veja todos(+99)</a>
+                    <li><a href="#">Veja todos (+99);</a>
                 </ul>
             </section>
 
-            <section>
+            <section id="history">
                 <h2>200 anos de história</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae inventore laboriosam ad ipsam, illum praesentium sint fugiat reiciendis animi maxime nam! Doloremque ab perspiciatis molestiae illo neque consequatur voluptate magnam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, nostrum eaque, at esse perferendis dicta perspiciatis debitis error ipsa eligendi voluptate neque autem laboriosam eos tempora omnis, quia aspernatur vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto atque nobis sint, eum inventore est deserunt obcaecati dolorum distinctio fuga perferendis architecto. Labore consequatur illum natus? Reprehenderit debitis veritatis nobis.
                 </p>
                 <a href="#">Leia mais</a>
             </section>
-        </main>        
+        </main>   
+             
         <aside>
-            <section>
+            <section id="visit">
                 <h2>Faça uma visita</h2>
 
-                <label for="IData">Data</label>
-                <input type="date" name="Data" id="IData">
+                    <div>
+                        <label for="IData">Data</label>
+                        <input type="date" name="Data" id="IData">
+                        <label for="IQtd">Qtd de pessoas</label>
+                        <input type="number" name="Qtd" id="IQtd" style="width: 50px;">
+                    </div>
 
-                <label for="IQtd">Qtd de pessoas</label>
-                <input type="number" name="Qtd" id="IQtd">
-
-                <input type="button" value="Verificar Disponibilidade">
+                    <input type="button" value="Verificar Disponibilidade" id="button">
             </section>
 
-            <section>
+            <section id="galery">
                 <h2>Galeria De Fotos</h2>
                 
-                <div class="foto">
-                    <img src="imgs/imagem1.jpg" alt="foto">
-                </div>
-
-                <div class="foto">
-                    <img src="imgs/imagem2.jpg" alt="foto">
-                </div>
-
-                <div class="foto">
-                    <img src="imgs/imagem3.jpg" alt="foto">
-                </div>
-
-                <div class="foto">
-                    <img src="imgs/imagem4.jpg" alt="foto">
+                <div>
+                    <div class="foto">
+                        <img src="imgs/imagem1.jpg" alt="foto">
+                    </div>
+                    <div class="foto">
+                        <img src="imgs/imagem2.jpg" alt="foto">
+                    </div>
+                    <div class="foto">
+                        <img src="imgs/imagem3.jpg" alt="foto">
+                    </div>
+                    <div class="foto">
+                        <img src="imgs/imagem4.jpg" alt="foto">
+                    </div>
                 </div>
             </section>
         </aside>
     </div>
 
+    <hr>
+    
     <footer>
-
         <nav>
             <ul>
                 <li> <a href="#">HOME</a>
